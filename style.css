@@ -3,3 +3,99 @@
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
+.section {
+    display: flex;
+    margin: 50px;
+}
+
+.hero {
+    width: 50%;
+
+}
+
+img {
+    width: 360px;
+    height: 380px;
+    margin-left: 50px;
+}
+
+.hero-text {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.middle-text {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    margin: 30px 0px;
+}
+
+#color {
+    color: rgb(244, 9, 146);
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 25px;
+    color: white;
+    background-color: rgb(245, 69, 15);
+    border-radius: 25px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.sec1 {
+    background-image: url(./images/shapes/7.png);
+}
+
+.middle-text {
+    margin: 80px 350px;
+}
+
+.sec1 img {
+    margin-left: 180px;
+}
+
+.sec1 p {
+    margin-bottom: 80px;
+}
+
+.recipies .recipies-text {
+    text-align: center;
+}
+
+.recipies .recipies-text p {
+    margin: 30px 480px;
+}
+
+.recipies .recipies-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.recipies .recipies-card {
+    width: 50%;
+}
+
+.recipies .recipies-card .card-item {
+    margin: 20px 60px 20px;
+    width: 100%;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.recipies .recipies-card .card-item h1 {
+    margin-left: 60px;
+}
+
+.recipies .recipies-card .card-item p {
+    margin-left: 60px;
+}
